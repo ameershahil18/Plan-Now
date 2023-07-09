@@ -1,0 +1,77 @@
+.Navbar {
+  height: 70px;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+}
+
+.Navcontainer {
+  width: 100%;
+  max-width: 1024px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.login {
+  border: none;
+  color: white;
+  background-color: brown;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.navButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.ListYourProperty {
+  border: none;
+  background-color: none;
+  color: brown;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.ListYourProperty:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.Menus {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: brown;
+}
+
+.Home:hover {
+  cursor: pointer;
+  color: black;
+}
+.Discovery:hover {
+  cursor: pointer;
+  color: black;
+}
+.Experience:hover {
+  cursor: pointer;
+  color: black;
+}
+.Contact:hover {
+  cursor: pointer;
+  color: black;
+}
